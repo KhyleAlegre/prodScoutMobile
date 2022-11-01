@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "prodscout-90022": {
+      "hosting": {
+        "app": [
+          "prodscout-90022"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "prodscout-90022"
+  }
+}

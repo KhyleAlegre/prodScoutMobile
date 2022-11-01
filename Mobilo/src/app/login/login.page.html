@@ -1,0 +1,34 @@
+<ion-header> </ion-header>
+
+<ion-content>
+  <div class="loginTitle">
+    <img src="assets/ps64.png" />
+    <br />
+    <label>MOBILO</label>
+  </div>
+
+  <div class="loginCard">
+    <ion-card>
+      <ion-card-content>
+        <ion-input
+          class="input-form-standard"
+          placeholder="Enter Account Id"
+          [(ngModel)]="profileId"
+        ></ion-input>
+        <ion-input
+          type="password"
+          class="input-form-standard"
+          placeholder="Password"
+          [(ngModel)]="password"
+        ></ion-input>
+        <ion-button color="primary" expand="block" (click)="login()"
+          >Scout this Device</ion-button
+        >
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div class="loginSub">
+    <label class="subText">2022 - prodScout (Mobilo)</label>
+  </div>
+</ion-content>

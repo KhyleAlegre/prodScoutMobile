@@ -1,0 +1,7 @@
+{
+  "name": "Mobilo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
