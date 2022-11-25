@@ -1,0 +1,35 @@
+<ion-content>
+  <div class="loginTitle">
+    <img src="assets/ps48w.png" />
+    <label>MOBILO!</label>
+  </div>
+  <div class="loginCard">
+    <ion-card>
+      <ion-card-content>
+        <ion-input
+          class="lgInput"
+          placeholder="Enter Profile Id"
+          [(ngModel)]="profileId"
+        ></ion-input>
+        <ion-input
+          class="lgInput"
+          placeholder="Enter User Name"
+          [(ngModel)]="username"
+        ></ion-input>
+        <ion-button color="warning" expand="block" (click)="login()"
+          >Send Scouts</ion-button
+        >
+
+        <ion-button color="warning" expand="block" (click)="startScout()"
+          >Start Scouting</ion-button
+        >
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div class="loginSub">
+    <label class="subText">Mobilo! A prodScout Watcher for Mobile</label>
+    <br />
+    <label class="subText2">prodScout 2022</label>
+  </div>
+</ion-content>
